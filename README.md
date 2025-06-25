@@ -1,6 +1,6 @@
 # ⚡ Introduction to PyPSA Modeling
 
-This repository was developed for the [Energy Innovation Summit](https://www.energyinnovationsummit.org/) co-hosted by [Open Energy Transition](https://openenergytransition.org) and [Gurobi](https://www.gurobi.com). It introduces users to the core concepts of power system modeling using the [PyPSA](https://pypsa.org) toolbox and provides a hands-on training notebook that runs directly in Google Colab.
+This repository was developed for the [Gurobi Energy Innovation Summit](https://www.gurobi.com/microsite/2025-energy-innovation-summit/) co-hosted by [Open Energy Transition](https://openenergytransition.org) and [Gurobi](https://www.gurobi.com). It introduces users to the core concepts of power system modeling using the [PyPSA](https://pypsa.org) toolbox and provides a hands-on training notebook that runs directly in [Google Colab](https://colab.research.google.com).
 
 ---
 
@@ -63,6 +63,8 @@ This repository includes:
 
 The notebook is **self-contained** and designed to run in **Google Colab**, so no local setup is needed.
 
+Users are encouraged to refer to the official [PyPSA documentation](https://pypsa.readthedocs.io) for detailed guidance on model components, usage, and advanced features.
+
 ---
 
 ## ☁️ Running in Google Colab
@@ -85,11 +87,11 @@ Google Colab provides a virtual machine in the cloud. However:
 
 Open the notebook in Colab using the badge below:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](link-to-notebook-if-applicable)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/open-energy-transition/EIS-2025/blob/main/introduction-to-pypsa.ipynb)
+
 
 ---
 
 ## 📬 Contact
 
-For questions, reach out via [Open Energy Transition](https://openenergytransition.org/contact) or [Gurobi Support](https://www.gurobi.com/support/).
-
+For questions, reach out to [Open Energy Transition](https://openenergytransition.org/contact).
