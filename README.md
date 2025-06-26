@@ -1,18 +1,24 @@
 # ⚡ Introduction to PyPSA Modeling
 
-This repository was developed for the [Gurobi Energy Innovation Summit](https://www.gurobi.com/microsite/2025-energy-innovation-summit/) co-hosted by [Open Energy Transition](https://openenergytransition.org) and [Gurobi](https://www.gurobi.com). It introduces users to the core concepts of power system modeling using the [PyPSA](https://pypsa.org) toolbox and provides a hands-on training notebook that runs directly in [Google Colab](https://colab.research.google.com).
+This repository was developed for the [Energy Innovation Summit](https://www.gurobi.com/microsite/2025-energy-innovation-summit/) co-hosted by [Open Energy Transition](https://openenergytransition.org) and [Gurobi](https://www.gurobi.com) on 24-26 June 2025 in Berlin, Germany. 
+
+The repository introduces users to the core concepts of energy system modeling using the [PyPSA](https://pypsa.org) toolbox and provides a hands-on training notebook that runs directly in [Google Colab](https://colab.research.google.com).
+
 
 ---
 
 ## 🧠 Key Concepts
 
+[![View the full presentation in Google Slides](https://img.shields.io/badge/Open%20in-Google%20Slides-yellow?logo=google-slides&logoColor=white)](https://docs.google.com/presentation/d/1pQr7r1EKxOLXyR-Zoq2yHNTP6Qbhm1CYOcs76NS_fsk/edit?usp=sharing)
+
+
 ### 1️⃣ Energy Systems as Networks  
 Energy systems can be represented as network models that describe how energy flows across infrastructure.
 
 
-
 <img src="img/network1.png" width="400"/>
 
+**PyPSA Philippines** – Arizeo C. Salacm, [pypsa-ph](https://zenodo.org/records/1558657)
 
 ---
 
@@ -20,6 +26,7 @@ Energy systems can be represented as network models that describe how energy flo
 A PyPSA network is built from components such as `buses`, `lines`, `links`, `generators`, and `loads`.
 
 <img src="img/network2.png" width="400"/>
+
 ---
 
 ### 3️⃣ The PyPSA Model  
@@ -76,6 +83,10 @@ Google Colab provides a virtual machine in the cloud. However:
   - Mounts your **Google Drive** to save files persistently.
   - Optionally pulls the latest version of this GitHub repository.
   - Creates timestamped **backups** of your existing work when pulling updates.
+
+> **Note:** To interact with the Excel notebooks, open the spreadsheets in Google Drive using Google Sheets. Adjust values as needed, then run the notebook.  
+> The notebook is linked to your Drive, so it will reference the updated Google Sheet. However, be aware that changes in Google Sheets may take a few moments to sync with Drive, which can occasionally cause a delay in reflecting updates during execution.
+
 
 ⚠️ To use these features, you will need a **Google account** and will be asked to authorize access to your Drive.
 
